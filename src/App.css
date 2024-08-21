@@ -2,37 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
 }
+.proudct-card{
+  width: 300px;
+  height: 300px;
+  border: solid 1px #ddd;
+  overflow: hidden;
+  border-radius: 10px;
 
-.App-link {
-  color: #61dafb;
+
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.proudct-card h3{
+  font-size: 15px;
+  height: 40px;
+  margin: 0 20px;
+  overflow: hidden;
+}
+.product-imag{
+  width: auto;
+  height: 150px;
+  margin-top: 10px;
+}
+.product-price{
+color: red;
+font-weight: bold;
 }
